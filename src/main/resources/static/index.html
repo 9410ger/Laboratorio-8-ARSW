@@ -31,6 +31,18 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
     
     <body>
         <div>TODO write content</div>
+        <button onclick="connect()">Conectar</button>
+        <button onclick="disconnect()">Desconectar</button>
+        <form>
+            X:
+            <input type="text" id="cx"/><br>
+            Y:
+            <input type="text" id="cy"/><br>
+        </form>
+        
         <button onclick="sendPoint()">send point</button>
+        
+        <canvas id="myCanvas" width="800" height="600" style="border:1px solid #000000;">
+        </canvas> 
     </body>
 </html>
